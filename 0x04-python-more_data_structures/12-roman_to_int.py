@@ -33,6 +33,7 @@ def roman_to_int(roman_string):
                     list_numeral.append(roman_numerals.get(ch))
 
                 last_roman = roman_numerals.get(ch)
+
     numeral += subtract(list_numeral)
 
     return (numeral)    
