@@ -28,11 +28,11 @@ def roman_to_int(roman_string):
             if r_num == ch:
                 if roman_numerals.get(ch) <= last_roman:
                     numeral += subtract(list_numeral)
-                    list_numeral = [roman_numerals.get[(ch)]
+                    list_numeral = [roman_numerals.get(ch)]
                 else:
                     list_numeral.append(roman_numerals.get(ch))
 
                 last_roman = roman_numerals.get(ch)
-        numeral += subtract(list_numeral)
+    numeral += subtract(list_numeral)
 
-        return (numeral)    
+    return (numeral)    
