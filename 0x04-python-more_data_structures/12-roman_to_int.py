@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def subtract(list_numeral):
     sub = 0
     max_list = max(list_numeral)
@@ -36,4 +37,4 @@ def roman_to_int(roman_string):
 
     numeral += subtract(list_numeral)
 
-    return (numeral)    
+    return (numeral)
