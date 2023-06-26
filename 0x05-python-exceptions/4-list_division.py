@@ -6,7 +6,7 @@ def list_division(my_list_1, my_list_2, list_length):
             try:
                 element_1 = my_list_1[n]
                 element_2 = my_list_2[n]
-                if isinstance(element_1, (int, float))
+                if isinstance(element_1, (int, float)) 
                 and isinstance(element_2, (int, float)):
                     if element_2 == 0:
                         res_list.append(0)
