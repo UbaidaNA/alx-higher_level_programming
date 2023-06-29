@@ -1,15 +1,12 @@
 #!/usr/bin/python3
-
-"""
-This class defines a square.
-"""
+"""This class defines a square."""
 
 class Square:
     """
     This class represents a square.
     """
 
-    def __init__(self, size)
+    def __init__(self, size=0):
         """
         Initializes a new square
 
